@@ -19,6 +19,7 @@ export default function Players(props) {
               value={playerName}
               onChange={handlePlayerName}
             />
+            hello
             <span className="player">{props.symbol}</span>
           </>
         ) : (
